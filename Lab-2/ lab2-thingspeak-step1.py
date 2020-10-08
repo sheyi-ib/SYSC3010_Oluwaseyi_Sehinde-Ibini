@@ -2,10 +2,10 @@ import http.client as httplib
 import urllib.parse as urllib 
 import time
 
-import my_pi_emulator_1 as pEmu
+import pi_emulator as rEmulator
 
 
-Temp = pEmu.tempMod()
+Temp = rEmulator.tempMod()
 
 key = "XIYH8HRWEAXH82ZK"  # Put your API Key here
 def thermometer():
