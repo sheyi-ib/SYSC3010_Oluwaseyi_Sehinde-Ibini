@@ -1,9 +1,9 @@
-import my_pi_emulator_1 as pyEmu
+import pi_emulator as pyEmulator
 import time
 
 #Create an object from temperature and display mod classes
-temp = pyEmu.tempMod()
-disp = pyEmu.dispMod()
+temp = pyEmulator.tempMod()
+disp = pyEmulator.dispMod()
 
 #initialize disp
 disp.init()
