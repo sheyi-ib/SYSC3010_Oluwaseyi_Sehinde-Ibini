@@ -15,9 +15,9 @@ while True:
 				if selection == False:
 					selection = True
 					sense.show_letter("O")
-                else:
-                    selection = False
-                    sense.show_letter("S")
+                		else:
+                    			selection = False
+                    			sense.show_letter("S")
 
 
 
